@@ -1,0 +1,25 @@
+- src: https://github.com/ansible-lockdown/UBUNTU18-CIS.git
+  scm: git
+  version: georgenalen
+  name: ubuntu18
+
+- src: https://github.com/ansible-lockdown/UBUNTU20-CIS.git
+  scm: git
+  version: georgenalen
+  name: ubuntu20
+
+- src: https://github.com/ansible-lockdown/APACHE-2.4-CIS.git
+  scm: git
+  version: devel
+  name: apache24
+
+
+- src: https://github.com/ansible-lockdown/RHEL8-CIS.git
+  scm: git
+  version: devel
+  name: rhel8
+
+- src: https://github.com/ansible-lockdown/RHEL7-CIS.git
+  scm: git
+  version: devel
+  name: rhel7
